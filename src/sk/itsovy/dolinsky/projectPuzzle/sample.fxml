@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" prefHeight="400.0" prefWidth="500.0"
+		  vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal"
+		  fx:controller="sk.itsovy.dolinsky.projectPuzzle.Controller">
+	<children>
+		<AnchorPane prefHeight="450.0" prefWidth="490.0">
+			<children>
+				<Button fx:id="btn0" disable="true" layoutX="13.0" layoutY="15.0" mnemonicParsing="false"
+						onAction="#clickBtn0" prefHeight="80.0" prefWidth="80.0" text="1">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn1" disable="true" layoutX="95.0" layoutY="15.0" mnemonicParsing="false"
+						onAction="#clickBtn1" prefHeight="80.0" prefWidth="80.0" text="2">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn2" disable="true" layoutX="177.0" layoutY="15.0" mnemonicParsing="false"
+						onAction="#clickBtn2" prefHeight="80.0" prefWidth="80.0" text="3">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn3" disable="true" layoutX="259.0" layoutY="15.0" mnemonicParsing="false"
+						onAction="#clickBtn3" prefHeight="80.0" prefWidth="80.0" text="4">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn4" disable="true" layoutX="13.0" layoutY="97.0" mnemonicParsing="false"
+						onAction="#clickBtn4" prefHeight="80.0" prefWidth="80.0" text="5">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn5" disable="true" layoutX="95.0" layoutY="97.0" mnemonicParsing="false"
+						onAction="#clickBtn5" prefHeight="80.0" prefWidth="80.0" text="6">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn6" disable="true" layoutX="177.0" layoutY="97.0" mnemonicParsing="false"
+						onAction="#clickBtn6" prefHeight="80.0" prefWidth="80.0" text="7">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn7" disable="true" layoutX="259.0" layoutY="97.0" mnemonicParsing="false"
+						onAction="#clickBtn7" prefHeight="80.0" prefWidth="80.0" text="8">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn8" disable="true" layoutX="13.0" layoutY="178.0" mnemonicParsing="false"
+						onAction="#clickBtn8" prefHeight="80.0" prefWidth="80.0" text="9">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn9" disable="true" layoutX="95.0" layoutY="178.0" mnemonicParsing="false"
+						onAction="#clickBtn9" prefHeight="80.0" prefWidth="80.0" text="10">
+					<font>
+						<Font size="28.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn10" disable="true" layoutX="177.0" layoutY="178.0" mnemonicParsing="false"
+						onAction="#clickBtn10" prefHeight="80.0" prefWidth="80.0" text="11">
+					<font>
+						<Font size="28.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn11" disable="true" layoutX="259.0" layoutY="178.0" mnemonicParsing="false"
+						onAction="#clickBtn11" prefHeight="80.0" prefWidth="80.0" text="12">
+					<font>
+						<Font size="28.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn12" disable="true" layoutX="13.0" layoutY="259.0" mnemonicParsing="false"
+						onAction="#clickBtn12" prefHeight="80.0" prefWidth="80.0" text="13">
+					<font>
+						<Font size="28.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn13" disable="true" layoutX="95.0" layoutY="259.0" mnemonicParsing="false"
+						onAction="#clickBtn13" prefHeight="80.0" prefWidth="80.0" text="14">
+					<font>
+						<Font size="28.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn14" disable="true" layoutX="177.0" layoutY="259.0" mnemonicParsing="false"
+						onAction="#clickBtn14" prefHeight="80.0" prefWidth="80.0" text="15">
+					<font>
+						<Font size="28.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btn15" disable="true" layoutX="259.0" layoutY="259.0" mnemonicParsing="false"
+						onAction="#clickBtn15" prefHeight="80.0" prefWidth="80.0" text=" ">
+					<font>
+						<Font size="33.0"/>
+					</font>
+				</Button>
+				<Button fx:id="btnStart" layoutX="369.0" layoutY="49.0" mnemonicParsing="false" onAction="#start"
+						prefHeight="26.0" prefWidth="72.0" text="Start"/>
+				<Button fx:id="btnReset" layoutX="369.0" layoutY="84.0" mnemonicParsing="false" onAction="#reset"
+						prefHeight="26.0" prefWidth="72.0" text="Reset"/>
+				<Button fx:id="btnEnd" layoutX="369.0" layoutY="120.0" mnemonicParsing="false" onAction="#end"
+						prefHeight="26.0" prefWidth="72.0" text="End"/>
+			</children>
+		</AnchorPane>
+	</children>
+	<columnConstraints>
+		<ColumnConstraints/>
+	</columnConstraints>
+	<rowConstraints>
+		<RowConstraints/>
+	</rowConstraints>
+</GridPane>
